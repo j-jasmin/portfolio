@@ -43,14 +43,19 @@ h2 {
 
 .nav-bar a {
   text-decoration: none;
-  margin-left: 0.6rem;
-  border-bottom: 4px solid #e25822;
+  margin-left: 1rem;
+  border-bottom: 0.2rem solid #e25822;
   color: #000058;
   font-size: 1.4rem;
 }
 
 .nav-bar a:hover {
-  border-bottom: 4px solid black;
+  border-bottom: 0.2rem solid #000058;
+}
+
+.line {
+  width: 15%;
+  border-bottom: 0.125rem solid #e25822;
 }
 
 .icons {
@@ -61,4 +66,8 @@ h2 {
 .icons img {
   width: 70px;
   height: auto;
+}
+
+.icon-container {
+  margin: 3.5rem 0 5rem 0;
 }
