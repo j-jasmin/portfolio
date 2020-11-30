@@ -60,12 +60,16 @@ h2 {
 
 .icons {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 0.2rem solid #e25822;
 }
 
 .icons img {
   width: 70px;
   height: auto;
+  background: transparent;
+  margin-top: 1rem;
+  margin-right: 2rem;
 }
 
 .icon-container {
