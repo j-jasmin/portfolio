@@ -61,16 +61,12 @@ p {
   border-bottom: 0.2rem solid #000058;
 }
 
-.line {
-  width: 15%;
-  border-bottom: 0.125rem solid #e25822;
-}
-
 .icons {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   border-top: 0.2rem solid #e25822;
+  padding-top: 1.5rem;
 }
 
 .icons img {
