@@ -19,6 +19,10 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 p {
   line-height: 1.6rem;
 }
