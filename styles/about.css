@@ -16,6 +16,7 @@ h1,
 h2 {
   color: #000058;
   letter-spacing: 0.0125rem;
+  font-family: "Playfair Display", serif;
 }
 
 p {
