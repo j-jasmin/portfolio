@@ -12,5 +12,52 @@
     />
     <title>contact</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="site-header">
+        <img src="./images/logo.png" alt="logo" />
+        <nav class="nav-bar">
+          <a href="./index.html">about</a>
+          <a href="#">blog</a>
+          <a href="#">work</a>
+          <a href="./contact.html">contact</a>
+        </nav>
+      </header>
+      <main class="contact-box">
+        <h3>say hello!</h3>
+        <p>
+          If you’d like to send me a message, I can be reached through various
+          ways! If you prefer email, simply fill out the form below or send me a
+          message directly at <code>jasminjenull@gmail.com</code> .
+        </p>
+        <div class="contact flex">
+          <div class="form-container">
+            <div class="fields">
+              <form id="my-form"
+              action="https://formspree.io/xpzojyed"
+              method="POST"
+              >
+              <div id="form">
+                <div class="form-group">
+                  <p>Name:</p>
+                  <input type ="text" size="40" type="name" name="name" />
+                </div>
+                <div class="form-group">
+                  <p>Email:</p>
+                  <input type ="text" size="40" type="email" name="email" />
+                </div>
+                <div class="form-group">
+                  <p>Message:</p>
+                  <textarea type ="text" cols="40" name="message" rows="5"></textarea>
+                </div>
+              </div>
+              <button class="button" id="my-form-button">Send</button>
+              <p class="confirm-sent" id="my-form-status"></p>
+            </form>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </body>
 </html>
