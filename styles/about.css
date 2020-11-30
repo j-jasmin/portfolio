@@ -7,8 +7,15 @@ body {
   height: 100%;
   min-height: 100vh;
   margin: 0px;
-  border: 8px solid black;
+  border: 8px solid #000058;
   position: relative;
+  background-color: #f5f0e1;
+}
+
+h1,
+h2 {
+  color: #000058;
+  letter-spacing: 0.0125rem;
 }
 
 .wrapper {
@@ -24,13 +31,11 @@ body {
 }
 
 .site-header img {
-  width: 3rem;
+  width: 2.8rem;
   height: auto;
 }
 
 .nav-bar {
-  font-size: 1.5rem;
-  text-decoration: none;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -39,14 +44,21 @@ body {
 .nav-bar a {
   text-decoration: none;
   margin-left: 0.6rem;
+  border-bottom: 4px solid #e25822;
+  color: #000058;
+  font-size: 1.4rem;
+}
+
+.nav-bar a:hover {
+  border-bottom: 4px solid black;
 }
 
 .icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .icons img {
-  width: 100px;
+  width: 70px;
   height: auto;
 }
