@@ -31,8 +31,15 @@ code {
   margin-bottom: 0;
 }
 
-input:focus {
-  border: 2px solid #e25822;
+input,
+textarea {
+  border: none;
+  background-color: #e7deba;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid rgba(226, 88, 34, 0.5);
 }
 
 .button {
@@ -59,6 +66,12 @@ input:focus {
 
 .contact-info p {
   margin: 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }
 
 a {

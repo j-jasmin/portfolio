@@ -62,12 +62,15 @@ p {
   border-bottom: 0.2rem solid #000058;
 }
 
+.line {
+  margin-top: 2rem;
+  border-top: 0.2rem solid #e25822;
+}
+
 .icons {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-top: 0.2rem solid #e25822;
-  padding-top: 1.5rem;
 }
 
 .icons img {
@@ -78,5 +81,5 @@ p {
 }
 
 .icon-container {
-  margin: 3.5rem 0 5rem 0;
+  margin: 2.5rem 0 5rem 0;
 }
