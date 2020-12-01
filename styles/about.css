@@ -9,7 +9,7 @@ body {
   margin: 0px;
   border: 8px solid #000058;
   position: relative;
-  background-color: #f5f0e1;
+  background-color: #f8fcfd;
 }
 
 h1,
@@ -40,7 +40,7 @@ p {
 
 .site-header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .site-header img {
